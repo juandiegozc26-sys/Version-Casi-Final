@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clubes Abiertos - USMP</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/clubes.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <!-- biblioteca de css para cajas-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+<header>
+    <nav class="navbar navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="imagenes/logo.jpg" alt="logo USMP" class="logo-usmp">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html" style="color: black;">Pagina Principal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="clubesE.html">Clubes abiertos</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="Register.html">Registrarse a un Club</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="helpE.html">Ayuda por facultades</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="fila hero portada-clubes flex-column flex-lg-row">
+
+    <div class="texto col-12 col-lg-6 flex-lg-shrink-1">
+        <p class="ruta-navegacion">
+            <a href="index.html">Portal USMP</a> / 
+            <strong>Clubes Abiertos</strong>
+        </p>
+
+        <h1>Clubes Abiertos: espacios de aprendizaje autónomo</h1>
+
+        <p>
+            Descubre las actividades de aprendizaje autónomo que ofrece la USMP.
+            Participa, conecta y crece junto a la comunidad universitaria.
+        </p>
+<button type="button" class="btn-solid theme-secondary"
+        data-bs-toggle="tooltip"
+        data-bs-placement="left lg:top"
+        data-bs-title="Actividades Divertidas!!!">
+  Ver actividades
+</button>
+        <button></button>
+        <button class="boton-contorno">Calendario</button>
+    </div>
+
+
+    <div class="fotodos col-12 col-lg-6 flex-lg-shrink-1 mx-auto mx-lg-0">
+
+        <div id="carouselExample" class="carousel slide">
+
+            <div class="carousel-inner">
+
+                <div     class="carousel-item active">
+                    <img src="imagenes/grupal.jpg" alt="Actividad USMP">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="imagenes/grupal4.JPG" alt="Actividad USMP">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="imagenes/grupal3.jpg" alt="Actividad USMP">
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Anterior</span>
+
+            </button>
+
+            <button class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Siguiente</span>
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+    <div class="titulo encabezado-flex flex-wrap">
+        <span>LO MÁS DESTACADO</span>   
+    </div>
+    <div class="contenedor flex-wrap px-3">
+            
+        <div class="producto producto-ancho mw-100">
+            <img src="imagenes/basquet.jpg" alt="basquet">
+            <span class="etiqueta etiqueta-roja">Actividades destacadas</span>
+            <h2>Clubes Abiertos: Actividades Deportivas</h2>
+            <p>Inscríbete y participa en las actividades deportivas abiertas para todos los estudiantes.</p>
+        </div>
+
+        <div class="producto producto-ancho mw-100">
+            <img src="imagenes/ialab.jpg" alt="ialab">
+            <span class="etiqueta etiqueta-roja">Comunidad</span>
+            <h2>Proyectos de innovación: cómo participar en la Facultad</h2>
+            <p>Conoce los proyectos de innovación estudiantil y las convocatorias vigentes.</p>
+        </div>
+
+    </div>
+
+    <div class="titulo encabezado-flex flex-wrap">
+        <span>CLUBES POR FACULTAD</span>
+        <a href="#" class="ver-todo">Ver todo</a>
+    </div>
+    <div class="contenedor contenedor-grid flex-wrap px-3">
+
+        <div class="producto producto-horizontal mw-100">
+            <img src="imagenes/robotica.jpg" alt="ARDUINO" width="50%">
+            <div>
+                <span class="etiqueta etiqueta-contorno etiqueta-naranja">Club recreativo</span>
+                <h2>Club de innovación electrónica, con sistemas ARDUINO, Isaac_UNI</h2>
+                <a href="Register.html"><button>Inscribirme</button></a>
+            </div>
+        </div>
+
+        <div class="producto producto-horizontal mw-100">
+            <img src="imagenes/investigacion.JPG" alt="investigacion" width="50%">            <div>
+                <span class="etiqueta etiqueta-contorno etiqueta-azul">Club académico</span>
+                <h2>II Taller de especialización de la nueva sede del edificio</h2>
+                <a href="Register.html"><button>Inscribirme</button></a>
+            </div>
+        </div>
+
+        <div class="producto producto-horizontal mw-100">
+            <img src="imagenes/empresas.jpg" alt="empresas" width="50%">            <div>
+                <span class="etiqueta etiqueta-contorno etiqueta-verde">Club de emprendimiento</span>
+                <h2>Club de innovación en gestión por grandes empresas</h2>
+                <a href="Register.html"><button>Inscribirme</button></a>
+            </div>
+        </div>
+
+        <div class="producto producto-horizontal mw-100">
+            <img src="imagenes/aero.jpg" alt="aero" width="50%">            <div>
+                <span class="etiqueta etiqueta-contorno etiqueta-roja">Club aeronáutico</span>
+                <h2>Club de aviación comunitaria: Net working</h2>
+                <a href="Register.html"><button>Inscribirme</button></a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="destacado destacado-lista mw-100">
+        <h2>Enlaces rápidos</h2>
+        <p><a href="#">Vida universitaria</a></p>
+        <p><a href="#">Voluntariado</a></p>
+        <p><a href="#">Investigaciones</a></p>
+        <p><a href="#">Facultades</a></p>
+        <p><a href="#">Comunidades</a></p>
+    </div>
+
+    <div class="destacado destacado-lista mw-100">
+        <h2>Calendario</h2>
+        <p><strong>24 Oct</strong> — Convocatoria voluntariado</p>
+        <p><strong>02 Nov</strong> — Vacaciones útiles</p>
+        <p><strong>15 Nov</strong> — Conferencia internacional</p>
+    </div>
+
+
+
+
+    <footer>
+        <div class="contenedor contenedor-footer flex-column flex-md-row px-4">
+            <div>
+                <h2>Universidad de San Martín de Porres</h2>
+                <p>Av. Circunvalación del Golf Los Incas Cdra. 3, Santa Anita, Lima</p>
+            </div>
+            <div>
+                <h2>Facultades</h2>
+                <p><a href="https://fia.usmp.edu.pe/">Ing. y Arquitectura</a></p>
+            </div>
+            <div>
+                <h2>Redes sociales</h2>
+                <p>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-youtube"></i></a>
+                </p>
+            </div>
+        </div>
+        <p>© 2026 Universidad de San Martín de Porres</p>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

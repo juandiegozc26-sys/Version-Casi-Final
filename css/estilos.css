@@ -1,0 +1,5 @@
+/* Investigacion de css madre */
+@import url("base.css");
+@import url("encabezado.css");
+@import url("piePG.css");
+@import url("componentes.css");

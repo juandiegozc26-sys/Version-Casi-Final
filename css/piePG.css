@@ -1,0 +1,29 @@
+/* Pie de Pagina
+NO MOVER*/
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.contenedor-footer {
+    text-align: left;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.contenedor-footer h2 {
+    font-size: 15px;
+}
+
+.contenedor-footer a {
+    color: #cfcfcf;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.contenedor-footer a:hover {
+    color: white;
+}

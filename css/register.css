@@ -1,0 +1,37 @@
+/* Pagina de registro
+mejorar */
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../imagenes/campus.jpg) no-repeat center center / cover !important;
+}
+
+.card-inscription {
+    background-color: #ffffff;
+    color: #333333;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.4);
+}
+
+.btn-usmp {
+    background-color: var(--usmp-red);
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-usmp:hover {
+    background-color: var(--usmp-dark-red);
+    color: #ffffff;
+}
+
+.form-control:focus {
+    border-color: var(--usmp-red);
+    box-shadow: 0 0 0 0.25rem rgba(128, 0, 0, 0.25);
+}
+
+.form-select:focus {
+    border-color: var(--usmp-red);
+    box-shadow: 0 0 0 0.25rem rgba(128, 0, 0, 0.25);
+}

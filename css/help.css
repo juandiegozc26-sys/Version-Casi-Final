@@ -1,0 +1,50 @@
+.helpE_acordeon {
+    width: 800px;       
+    max-width: 100%;    
+    flex-shrink: 0;     
+    margin: 0 auto;
+}
+
+
+#accordion .ui-accordion-header {
+    background: #800020 !important;
+    color: #ffffff !important;
+    border: none !important;
+    margin-top: 8px !important;
+    border-radius: 6px !important;
+}
+
+.img-carrera {
+    max-height: 120px;
+    object-fit: cover;
+}
+
+.m-0{
+    width: 100%;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.65)),
+                url('../imagenes/fondo.jpg') no-repeat center center / cover;
+}
+
+.caja_help{
+    margin: auto;
+    background-color: rgb(59, 1, 1);
+}
+
+.fila .texto {
+    width: 55%;
+}
+
+.imagen_wasap {
+    display: flex;          
+    justify-content: center; 
+    margin: 0 auto;
+    border-radius: 20px; 
+    padding-bottom: 15px;
+}
+
+.imagen_wasap img {
+    border-radius: 12px;
+}

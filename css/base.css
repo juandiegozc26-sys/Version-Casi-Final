@@ -1,0 +1,21 @@
+/* no mover */
+
+body {
+    font-family: Arial;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding-top: 65px;
+}
+
+.contenedor {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+/* definicion de variables d color */
+:root {
+    --usmp-red: #800000;
+    --usmp-dark-red: #5d0000;
+}

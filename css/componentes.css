@@ -1,0 +1,127 @@
+/* cajas que se usan en todo */
+
+.titulo {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    background-color: #3a0101;
+}
+
+.fila {
+    display: flex;
+    gap: 30px;
+    padding: 20px 40px;
+}
+
+.fila.hero {
+    position: relative;
+    overflow: hidden;
+    padding: 40px;
+    color: white;
+    isolation: isolate;
+}
+
+.fila.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("../imagenes/campus.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: blur(6px) brightness(0.45);
+    transform: scale(1.1);
+    z-index: -1;
+}
+
+.fila.hero h1, .fila.hero p {
+    color: white;
+}
+
+.fila.hero button {
+    background-color: #a91d2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.producto-foto {
+    background-color: #d9d9d9;
+    color: #000000;
+    text-align: center;
+    padding: 40px 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+.producto {
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px #aaa;
+}
+
+.producto h2 {
+    font-size: 20px;
+}
+
+.producto h3 {
+    color: #a91d2f;
+}
+
+.producto p {
+    color: #555;
+}
+
+.producto button {
+    background-color: #a91d2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.producto button:hover {
+    background-color: #7a1522;
+}
+
+.producto img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.destacado {
+    background-color: #a91d2f;
+    color: white;
+    margin: 30px auto;
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.destacado button {
+    background-color: white;
+    color: #a91d2f;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.destacado button:hover {
+    background-color: #470000;
+    color: wheat;
+}
+
+.producto {
+    transition: transform 0.3s ease; 
+}
+
+.producto:hover {
+    transform: scale(1.05); 
+}

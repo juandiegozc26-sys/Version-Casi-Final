@@ -1,0 +1,47 @@
+/* Encabezadp
+NO MOVER*/
+
+.navbar {
+    background-color: #640505;
+    padding: 10px 25px;
+}
+
+.logo-usmp {
+    height: 57px;
+    width: auto;
+    border-radius: 6px;
+}
+
+.menu {
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    border-bottom: 1px dashed black;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.menu a:hover {
+    color: #a91d2f;
+}
+
+.nav-item a {
+    color: black;
+}
+
+.nav-item a:hover {
+    color: #e90c0c;
+}
+
+.navbar {
+    background-color: var(--usmp-red) !important;
+}
+
+.logo-usmp {
+    height: 45px;
+    object-fit: contain;
+}

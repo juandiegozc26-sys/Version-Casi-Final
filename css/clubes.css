@@ -1,0 +1,145 @@
+/* clubes */
+
+.portada-clubes {
+    min-height: 280px;
+    align-items: center;
+}
+
+.ruta-navegacion {
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+.ruta-navegacion a {
+    color: white;
+}
+
+.boton-contorno {
+    background: transparent;
+    border: 1px solid white;
+    margin-left: 10px;
+}
+
+.encabezado-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.ver-todo {
+    color: white;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.producto-ancho {
+    width: 380px;
+}
+
+.producto-horizontal {
+    width: 320px;
+    display: flex;
+    gap: 12px;
+    text-align: left;
+    align-items: center;
+}
+
+.producto-horizontal h2 {
+    font-size: 14px;
+    line-height: 1.3;
+}
+
+.contenedor-grid {
+    flex-wrap: wrap;
+}
+
+.etiqueta {
+    display: inline-block;
+    font-size: 11px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.etiqueta-roja {
+    background-color: #a91d2f;
+    color: white;
+}
+
+.etiqueta-contorno {
+    background: transparent;
+    border: 1px solid;
+}
+
+.etiqueta-contorno.etiqueta-naranja {
+    color: #d97706;
+    border-color: #d97706;
+}
+
+.etiqueta-contorno.etiqueta-azul {
+    color: #2563eb;
+    border-color: #2563eb;
+}
+
+.etiqueta-contorno.etiqueta-verde {
+    color: #16a34a;
+    border-color: #16a34a;
+}
+
+.etiqueta-contorno.etiqueta-roja {
+    color: #a91d2f;
+    border-color: #a91d2f;
+}
+
+.destacado-lista {
+    width: 380px;
+    text-align: left;
+}
+
+.destacado-lista a {
+    color: white;
+    text-decoration: underline;
+}
+
+.portada-clubes .fotodos {
+    max-width: 720px;
+}
+
+.portada-clubes .carousel {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.portada-clubes .carousel-item {
+    height: 430px;
+}
+
+.portada-clubes .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+.portada-clubes .carousel-control-prev, .portada-clubes .carousel-control-next {
+    width: 60px;
+    background: transparent !important;
+    border: none !important;
+    opacity: 1;
+}
+
+.portada-clubes .carousel-control-prev:hover, .portada-clubes .carousel-contfrol-next:hover {
+    background: transparent !important;
+}
+
+.portada-clubes .carousel-control-prev-icon, .portada-clubes .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.35);
+    border-radius: 50%;
+    padding: 22px;
+    background-size: 50%;
+}
